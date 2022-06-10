@@ -1,0 +1,53 @@
+// Font
+@font-face {
+	font-family: 'Josefin Sans'; 
+	src: local('Josefin Sans'),
+		url(@/assets/fonts/JosefinSans-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Josefin Sans'; 
+	src: local('Josefin Sans'),
+		url(@/assets/fonts/JosefinSans-Light.ttf);
+    font-weight: 300;
+}
+
+$mainFont                : 'Josefin Sans', Helvetica, Arial, sans-serif;
+
+
+// Size
+$mainFontColor           : #101010;
+$mainFontSize            : 18px;
+$mainFontWeight          : 400;
+$mainLineHeight          : 1.4;
+
+$lgDesktopWidth          : 1400px;
+$desktopWidth            : 1280px;
+$smDesktopWidth          : 1024px;
+$tableWidth              : 768px;
+$smTableWidth            : 640px;
+$phoneWidth              : 480px;
+$smPhoneWidth            : 320px;
+
+// this way will help u to switch colors if theme is change
+
+
+
+// Main color
+$default-color           : #E9EAE1;
+$primary-color           : #55854A;
+$hover-color             : #94aa8f;
+
+
+// Neutral Color
+$neutral-primary         : #a9a9a9;
+$neutral-regular         : #606266;
+$neutral-secondary       : #909399;
+$neutral-placeholder     : #C0C4CC;
+
+// Border Color
+$border-base             : #DCDFE6;
+$border-light            : #E4E7ED;
+$border-lighter          : #EBEEF5;
+$border-lightex          : #F2F6FC;
