@@ -7,7 +7,7 @@
                         <router-link :to="link.item"> {{ link.title }} </router-link>
                     </li>
                 </ul>
-                <p class='navbar__descr'> {{ descr }} </p>
+                <p class='my-logo'> {{ myLogo }} </p>
             </div>
         </div>
     </footer>
@@ -21,7 +21,7 @@ export default {
         return{
             title: app.title,
             links: links,
-            descr: app.descr
+            myLogo: app.myLogo
         }
     }
 }

@@ -1,6 +1,6 @@
 // тк мы к ним обращаемся везде ниже
-@import 'utils/vars';
-@import 'utils/reset';
+@import './utils/vars';
+@import './utils/reset';
 
 html {
   line-height: $mainLineHeight;
@@ -121,6 +121,10 @@ section,
     margin-left: auto;
     margin-right: auto;
   }
+}
+.my-logo{
+  font-size: 14px;
+  color: $neutral-primary;
 }
 
 @import './common/_common';

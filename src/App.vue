@@ -2,10 +2,15 @@
 
   <div class="wrapper">
     <Header/>
-    <section>
-      <div class="wrapper_content">
-      </div>
-    </section>
+    <div class="wapper-container">
+      <section>
+        <div class="container">
+          <div class="vuew-sm isCenter">
+            <router-vuew />
+          </div>
+        </div>
+      </section>
+    </div>
     <Footer/>
   </div>
 

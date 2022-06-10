@@ -1,6 +1,6 @@
 export const app = {
     title: 'My plants',
-    descr: 'Lordik Liana'
+    myLogo: 'Lordik Liana'
 }
 
 export const links =[
@@ -12,7 +12,6 @@ export const links =[
     {
         title: "About",
         alias: 'about',
-        url: '/about'
-
+        url: '/About'
     }
 ]
